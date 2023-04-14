@@ -11,7 +11,7 @@ export default function Home() {
 
     fetch('/api/python')
     .then(res=>res.json())
-    .then(res=>console.log("res",res))
+    .then(res=>console.log("res from server",res))
   },[])
 
 
